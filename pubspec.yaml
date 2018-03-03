@@ -7,9 +7,7 @@ version: 0.0.1
 environment:
   sdk: '>=2.0.0-dev.30.0 <2.0.0'
 
-
-dependencies:
-  font_awesome: ^4.7.0
+#dependencies:
 
 #dev_dependencies:
 #  test: ^0.12.0
