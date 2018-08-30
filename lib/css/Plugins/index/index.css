@@ -1,22 +1,15 @@
 /*
-* Legion Market v2017.11.0
+* Legion Market v0.7.1
 * Copyright 2018, Legion Market
 * www.legionmarket.com
 * Free to use under the GPLv3 license.
 */
-/*
-* Legion Market v
-* Copyright 2018, Legion Market
-* www.legionmarket.com
-* Free to use under the GPLv3 license.
-*/
-/*
-* Legion Market v
-* Copyright 2018, Legion Market
-* www.legionmarket.com
-* Free to use under the GPLv3 license.
-*/
-html, body {
+html {
+  font-family: "Open Sans", serif;
+  background: #F0F2F4;
+}
+
+body {
   font-family: "Open Sans", serif;
   background: #F0F2F4;
 }

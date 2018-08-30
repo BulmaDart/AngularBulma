@@ -1,21 +1,14 @@
 /*
-* Legion Market v2017.11.0
+* Legion Market v0.7.1
 * Copyright 2018, Legion Market
 * www.legionmarket.com
 * Free to use under the GPLv3 license.
 */
-/*
-* Legion Market v
-* Copyright 2018, Legion Market
-* www.legionmarket.com
-* Free to use under the GPLv3 license.
-*/
-/*
-* Legion Market v
-* Copyright 2018, Legion Market
-* www.legionmarket.com
-* Free to use under the GPLv3 license.
-*/
+/* @media screen and (max-width: 786px){
+    .navbar {
+        justify-content: space-between;
+    }
+} */
 .navbar {
   position: fixed;
   left: 0;
@@ -50,11 +43,6 @@
   padding: 5px 10px;
 }
 
-.footer {
-  margin-top: 10vh;
-  padding: 2rem 1.5rem;
-}
-
 .card-footer .columns {
   width: 100%;
 }
@@ -69,4 +57,9 @@
 }
 .card-footer .columns .column:last-child button {
   border: none;
+}
+
+.footer {
+  margin-top: 10vh;
+  padding: 2rem 1.5rem;
 }

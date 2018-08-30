@@ -1,40 +1,28 @@
 /*
-* Legion Market v2017.11.0
-* Copyright 2018, Legion Market
-* www.legionmarket.com
-* Free to use under the GPLv3 license.
-*/
-/*
-* Legion Market v
-* Copyright 2018, Legion Market
-* www.legionmarket.com
-* Free to use under the GPLv3 license.
-*/
-/*
-* Legion Market v
+* Legion Market v0.7.1
 * Copyright 2018, Legion Market
 * www.legionmarket.com
 * Free to use under the GPLv3 license.
 */
 html {
-  font-family: "Open Sans", "serif";
-  background: #f2f6fa;
+  font-family: "Open Sans", serif;
+  background: #F2F6FA;
 }
 
 body {
-  font-family: "Open Sans", "serif";
-  background: #f2f6fa;
+  font-family: "Open Sans", serif;
+  background: #F2F6FA;
 }
 
 footer {
-  background-color: #f2f6fa !important;
+  background-color: #F2F6FA !important;
 }
 
 .topNav {
-  border-top: 5px solid #3498db;
+  border-top: 5px solid #3498DB;
 }
 .topNav .container {
-  border-bottom: 1px solid #e6eaee;
+  border-bottom: 1px solid #E6EAEE;
 }
 
 .container .columns {
@@ -58,6 +46,7 @@ aside.menu .menu-label {
 
 .button.is-primary.is-alt {
   background: #00c6ff;
+  background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);
   background: linear-gradient(to bottom, #0072ff, #00c6ff);
   font-weight: 700;
   font-size: 14px;
@@ -73,15 +62,19 @@ aside.menu .menu-label {
   font-size: 14px;
   line-height: 2.3;
   font-weight: 700;
-  color: #8f99a3;
+  color: #8F99A3;
 }
 
 article.post {
   margin: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #e6eaee;
+  border-bottom: 1px solid #E6EAEE;
 }
 article.post:last-child {
   padding-bottom: 0;
   border-bottom: none;
+}
+
+.menu-list li {
+  padding: 5px;
 }

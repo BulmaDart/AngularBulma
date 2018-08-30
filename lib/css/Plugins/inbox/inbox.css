@@ -1,77 +1,66 @@
 /*
-* Legion Market v2017.11.0
-* Copyright 2018, Legion Market
-* www.legionmarket.com
-* Free to use under the GPLv3 license.
-*/
-/*
-* Legion Market v
-* Copyright 2018, Legion Market
-* www.legionmarket.com
-* Free to use under the GPLv3 license.
-*/
-/*
-* Legion Market v
+* Legion Market v0.7.1
 * Copyright 2018, Legion Market
 * www.legionmarket.com
 * Free to use under the GPLv3 license.
 */
 html {
-  font-family: "Open Sans", "serif";
+  font-family: "Open Sans", serif;
   font-size: 14px;
   line-height: 1.5;
   height: 100%;
-  background-color: white;
+  background-color: #fff;
 }
 
 body {
-  font-family: "Open Sans", "serif";
+  font-family: "Open Sans", serif;
   font-size: 14px;
   line-height: 1.5;
   height: 100%;
-  background-color: white;
+  background-color: #fff;
 }
 
 .nav.is-dark {
-  background-color: #232b2d;
-  color: #f6f7f7;
+  background-color: #232B2D;
+  color: #F6F7F7;
 }
 .nav.is-dark .nav-item a {
-  color: #f6f7f7;
+  color: #F6F7F7;
 }
 .nav.is-dark .nav-item a.button.is-default {
-  color: #f6f7f7;
+  color: #F6F7F7;
   background-color: transparent;
   border-width: 2px;
 }
 .nav.is-dark a.nav-item {
-  color: #f6f7f7;
+  color: #F6F7F7;
 }
+
 .nav.menu {
   border-bottom: 1px solid #e1e1e1;
 }
 .nav.menu .nav-item .icon-btn {
-  border: 3px solid #b7c6c9;
+  border: 3px solid #B7C6C9;
   border-radius: 90px;
   padding: 5px 7px;
-  color: #b7c6c9;
+  color: #B7C6C9;
 }
 .nav.menu .nav-item .icon-btn .fa {
   font-size: 20px;
-  color: #b7c6c9;
+  color: #B7C6C9;
 }
 .nav.menu .nav-item.is-active .icon-btn {
-  color: #2eb398;
-  border: 3px solid #2eb398;
+  color: #2EB398;
+  border: 3px solid #2EB398;
 }
 .nav.menu .nav-item.is-active .icon-btn .fa {
-  color: #2eb398;
+  color: #2EB398;
 }
 
 .aside {
   display: block;
-  background-color: #f9f9f9;
-  border-right: 1px solid #dedede;
+  background-color: #F9F9F9;
+  border-right: 1px solid #DEDEDE;
 }
 .aside .compose {
   height: 95px;
@@ -79,7 +68,7 @@ body {
   padding: 25px 30px;
 }
 .aside .compose .button {
-  color: #f6f7f7;
+  color: #F6F7F7;
 }
 .aside .compose .button .compose {
   font-size: 14px;
@@ -87,40 +76,40 @@ body {
 }
 .aside .main {
   padding: 40px;
-  color: #6f7b7e;
+  color: #6F7B7E;
 }
 .aside .main .item {
   display: block;
   padding: 10px 0;
-  color: #6f7b7e;
-}
-.aside .main .item.active {
-  background-color: #f1f1f1;
-  margin: 0 -50px;
-  padding-left: 50px;
+  color: #6F7B7E;
 }
 .aside .main .item:active {
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
   margin: 0 -50px;
   padding-left: 50px;
 }
 .aside .main .item:hover {
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
+  margin: 0 -50px;
+  padding-left: 50px;
+}
+.aside .main .item.active {
+  background-color: #F1F1F1;
   margin: 0 -50px;
   padding-left: 50px;
 }
 .aside .main .icon {
   font-size: 19px;
   padding-right: 30px;
-  color: #a0a0a0;
+  color: #A0A0A0;
 }
 .aside .main .name {
   font-size: 15px;
-  color: #5d5d5d;
+  color: #5D5D5D;
   font-weight: 500;
 }
 .aside .title {
-  color: #6f7b7e;
+  color: #6F7B7E;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
@@ -128,8 +117,8 @@ body {
 
 .messages {
   display: block;
-  background-color: white;
-  border-right: 1px solid #dedede;
+  background-color: #fff;
+  border-right: 1px solid #DEDEDE;
   padding: 40px 20px;
 }
 .messages .action-buttons {
@@ -139,7 +128,7 @@ body {
 
 .message {
   display: block;
-  background-color: white;
+  background-color: #fff;
   padding: 40px 20px;
 }
 .message .action-buttons {
@@ -147,19 +136,6 @@ body {
   margin-top: -5px;
 }
 
-.action-buttons .pg .title {
-  display: block;
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 3px;
-  font-size: 12px;
-  color: #aaaaaa;
-}
-.action-buttons .pg a {
-  font-size: 12px;
-  color: #aaaaaa;
-  text-decoration: none;
-}
 .action-buttons .control.is-grouped {
   display: inline-block;
   margin-right: 30px;
@@ -177,10 +153,31 @@ body {
 .action-buttons .control.is-grouped .button:last-child {
   border-radius: 0 5px 5px 0;
 }
+.action-buttons .pg .title {
+  display: block;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 3px;
+  font-size: 12px;
+  color: #AAAAA;
+}
+.action-buttons .pg a {
+  font-size: 12px;
+  color: #AAAAAA;
+  text-decoration: none;
+}
 
 .pg {
   display: inline-block;
   top: 10px;
+}
+
+.is-grouped .button {
+  background-image: linear-gradient(#F8F8F8, #F1F1F1);
+}
+.is-grouped .button .fa {
+  font-size: 15px;
+  color: #AAAAAA;
 }
 
 .inbox-messages {
@@ -190,14 +187,14 @@ body {
   width: 100%;
 }
 .inbox-messages strong {
-  color: #5d5d5d;
+  color: #5D5D5D;
 }
 .inbox-messages .msg-check {
   padding: 0 20px;
 }
 .inbox-messages .msg-subject {
   padding: 10px 0;
-  color: #5d5d5d;
+  color: #5D5D5D;
 }
 .inbox-messages .msg-subject .fa {
   font-size: 14px;
@@ -207,12 +204,12 @@ body {
   float: right;
 }
 .inbox-messages .msg-snippet {
-  padding: 5px 20px 0 5px;
+  padding: 5px 20px 0px 5px;
 }
 .inbox-messages .msg-timestamp {
   float: right;
   padding: 0 20px;
-  color: #5d5d5d;
+  color: #5D5D5D;
 }
 
 .message-preview {
@@ -226,30 +223,22 @@ body {
   padding: 0 20px;
 }
 
+.avatar img {
+  width: 40px;
+  border-radius: 50px;
+  border: 2px solid #999;
+  padding: 2px;
+}
+
 .address .name {
   font-size: 16px;
   font-weight: bold;
 }
 .address .email {
   font-weight: bold;
-  color: #b6c7d1;
-}
-
-.is-grouped .button {
-  background-image: linear-gradient(#f8f8f8, #f1f1f1);
-}
-.is-grouped .button .fa {
-  font-size: 15px;
-  color: #aaaaaa;
-}
-
-.avatar img {
-  width: 40px;
-  border-radius: 50px;
-  border: 2px solid #999999;
-  padding: 2px;
+  color: #B6C7D1;
 }
 
 .card.active {
-  background-color: whitesmoke;
+  background-color: #F5F5F5;
 }
