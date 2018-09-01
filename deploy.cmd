@@ -1,1 +1,1 @@
-git add -A && git commit -m "completed bulma version 0.7.1" && git push && git push github master
+git add -A && git commit -m "added core.css" && git push && git push github master
